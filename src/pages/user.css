@@ -1,0 +1,18 @@
+.pro{
+    height: 120px;
+    width: 120px;
+    border-radius: 100%;
+    position: relative;
+    background-image: url(../assets/userprf.png);
+    background-position: center;
+    background-size: 135%;
+    background-repeat: no-repeat;
+}
+.img{
+    background-image: url(../assets/blobe.svg);
+    background-position: 100px -100px;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    position: fixed;
+    
+}
