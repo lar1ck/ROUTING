@@ -15,7 +15,7 @@ const Login = () => {
     setError("");
 
     if (username.trim() == "") {
-      setError("Enter a valid usernam");
+      setError("Enter a valid username");
       return;
     }
     if (password.length < 8) {
