@@ -22,7 +22,7 @@ function App() {
             {/* <Link to="/more">More</Link> */}
           </div>
           <div >
-            <Link to="/login" className="border-r-gray-600 border-l-gray-600 border-4 w-24 rounded-full place-content-center flex items-center hover:bg-gray-200 duration-300 p-1">Login</Link>
+            <Link to="/login" className="hover:scale-105 border-r-gray-600 border-l-gray-600 border-4 w-24 rounded-full place-content-center flex items-center hover:bg-gray-200 duration-300 p-1">Login</Link>
           </div>
         </nav>
       </div>
