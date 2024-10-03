@@ -13,7 +13,7 @@ const Contact = () => {
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis vel
           rem eum, tempora ab voluptatibus repellat culpa dolorum rerum.
         </p>
-        <button className="bg-black rounded-lg text-white font-semibold p-2 px-4 hover:bg-slate-800 flex justify-center items-center mt-4">
+        <button className="bg-black rounded-lg text-white font-semibold p-2 px-4 hover:bg-slate-800 flex justify-center items-center mt-4  hover:scale-x-105 duration-300">
           Get in touch <GoArrowRight className="ml-2" />
         </button>
       </div>

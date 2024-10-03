@@ -4,7 +4,6 @@ import App from "./App.tsx";
 import Home from "./pages/Home.tsx";
 import Contact from "./pages/Contact.tsx";
 import About from "./pages/About.tsx";
-// import More from "./pages/More.tsx";
 import Notfound from "./pages/Notfound.tsx";
 import User from "./pages/User.tsx";
 import Linkone from "./pages/Linkone.tsx";
@@ -24,7 +23,6 @@ createRoot(document.getElementById("root")!).render(
           </Route>
           <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<About />} />
-          {/* <Route path="/more" element={<More />} /> */}
           <Route path="/user/:name" element={<User />} />
         </Route>
 
@@ -32,5 +30,5 @@ createRoot(document.getElementById("root")!).render(
         <Route path="/login" element={<Login />}></Route>
       </Routes>
     </BrowserRouter>
-  </StrictMode>
+  </StrictMode> 
 );
