@@ -5,6 +5,7 @@ import { Outlet } from "react-router-dom";
 
 function App() {
   return (
+    
     <>
       <div className="font-mono">
         <nav className="font-sans  flex place-content-center	mt-2 mx-1 rounded-md p-2 justify-between px-24">
