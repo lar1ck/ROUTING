@@ -1,5 +1,6 @@
 // import React from 'react'
 import { Link, Outlet } from "react-router-dom";
+// import Comp from "../components/comp";
 
 const Home = () => {
   return (
@@ -34,7 +35,15 @@ const Home = () => {
           Link two
         </Link>
       </div>
-      <Outlet />
+      <Outlet /> 
+
+      {/* <h1>This is the component</h1>
+    <Comp 
+      name="name one "
+      email="nameone@gmail.com"
+      age="45"
+    /> */}
+   
     </div>
   );
 };
