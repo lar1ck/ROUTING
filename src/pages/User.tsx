@@ -3,11 +3,11 @@
 import "./user.css";
 
 interface userProps {
-  email: string,
-  phone: number,
-  adress: number,
-  bio: string,
-  userInfo:object
+  email?: string,
+  phone?: number,
+  adress?: number,
+  bio?: string,
+  userInfo?:object
 }
 
 const User: React.FC<userProps> = ({
